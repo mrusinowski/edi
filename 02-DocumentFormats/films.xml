@@ -5,56 +5,104 @@
         <genre>dramat</genre>
         <year>2019</year>
         <personal_rating>8.7</personal_rating>
-        <director>ToddPhillips</director>
+        <director gender="male">Todd Philips</director>
         <actors>
-            <actor>JoaquinPhoenix</actor>
-            <actor>RobertDeNiro</actor>
-            <actor>ZazieBeetz</actor>
+            <actor gender="male">
+                <name>Joaquin</name>
+                <surname>Phoenix</surname>
+            </actor>
+            <actor gender="male">
+                <name>Robert</name>
+                <surname>De Niro</surname>
+            </actor>
+            <actor gender="female">
+                <name>|Zazie</name>
+                <surname>Beetz</surname>
+            </actor>
+        </actors>
     </film>
     <film>
         <title>Parasite</title>
         <genre>dramat</genre>
         <year>2019</year>
         <personal_rating>8.3</personal_rating>
-        <director>JoonHoBong</director>
+        <director gender="male">Joon-ho Bong</director>
         <actors>
-            <actor>KangHoSong</actor>
-            <actor>SeonGyunLee</actor>
-            <actor>YeoJeongJo</actor>
+            <actor gender="male">
+                <name>Kang-ho</name>
+                <surname>Song</surname>
+            </actor>
+            <actor gender="male">
+                <name>Seon-gyun</name>
+                <surname>Lee</surname>
+            </actor>
+            <actor gender="female">
+                <name>Yeo-jeong</name>
+                <surname>Jo</surname>
+            </actor>
         </actors>
     </film>
     <film>
-        <title>BozeCialo</title>
+        <title>Boze Cialo</title>
         <genre>obyczajowy</genre>
         <year>2019</year>
         <personal_rating>8.0</personal_rating>
-        <director>JanKomasa</director>
+        <director gender="male">Jan Komasa</director>
         <actors>
-            <actor>BartoszBielenia</actor>
-            <actor>AleksandraKonieczna</actor>
-            <actor>ElizaRycembel</actor>
+            <actor gender="male">
+                <name>Bartosz</name>
+                <surname>Bielenia</surname>
+            </actor>
+            <actor gender="female">
+                <name>Aleksandra</name>
+                <surname>Konieczna</surname>
+            </actor>
+            <actor gender="female">
+                <name>Eliza</name>
+                <surname>Rycembel</surname>
+            </actor>
         </actors>
     </film>
     <film>
-        <title>GreenBook</title>
+        <title>Green Book</title>
         <genre>dramat,komedia</genre>
         <year>2018</year>
         <personal_rating>8.3</personal_rating>
-        <director>PeterFarrelly</director>
+        <director gender="male">Peter Farrelly</director>
         <actors>
-            <actor>ViggoMortensen</actor>
-            <actor>MahershalaAli</actor>
-            <actor>LindaCardellini</actor>
+            <actor gender="male">
+                <name>Viggo</name>
+                <surname>Mortensen</surname>
+            </actor>
+            <actor gender="male">
+                <name>Mahershala</name>
+                <surname>Ali</surname>
+            </actor>
+            <actor gender="female">
+                <name>Linda</name>
+                <surname>Cardellini</surname>
+            </actor>
         </actors>
+    </film>
     <film>
-        <title>MoonLight</title>
+        <title>Moon Light</title>
         <genre>dramat</genre>
         <year>2016</year>
         <personal_rating>6.6</personal_rating>
-        <director>BarryJenkins</director>
+        <director gender="male">Barry Jenkins</director>
         <actors>
-            <actor>TrevanteRhodes</actor>
-            <actor>AndreHolland</actor>
-            <actor>JanelleMonae</actor>
+            <actor gender="male">
+                <name>Trevante</name>
+                <surname>Rhodes</surname>
+            </actor>
+            <actor gender="male">
+                <name>Andre</name>
+                <surname>Holland</surname>
+            </actor>
+            <actor gender="female">
+                <name>Janelle</name>
+                <surname>Monae</surname>
+            </actor>
         </actors>
     </film>
+</films>

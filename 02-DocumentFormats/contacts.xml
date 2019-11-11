@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <contacts>
 	<!-- pay attention to the international characters:
 	  1/ use the "encoding" attribute with "utf-8" value
@@ -21,5 +21,12 @@
 		<phone type="home">5552307</phone>
 		<phone type="work">6660611</phone>
 		<notes>my best friend</notes>
+	</contact>
+	<contact>
+		<name>Michał</name>
+		<surname>Rusinowski</surname>
+		<email>michalr101@gmail.com</email>
+		<phone>793375477</phone>
+		<notes>some random guy doing this task</notes>
 	</contact>
 </contacts>
