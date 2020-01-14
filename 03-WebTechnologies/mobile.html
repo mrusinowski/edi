@@ -6,7 +6,25 @@
 	</head>
 	<body>
 		<h1>Create mobile phone</h1>
+		<button id="button"></button>
 		<script>
+			let phone = {
+				name: "redmi",
+				number: 123456789,
+				nfc: false,
+				cameras: ["front", "back"],
+				additionalInfo: {
+					"android": "AndroidOne"
+				}
+				
+			}
+			function show() {
+				alert("Name: "+phone.name
+				+"\nnumber: "+phone.number
+				+"\ncameras: "+phone.cameras[0]+", "+phone.cameras[1]
+				+"\nadditionalInfo: "+phone.additionalInfo.android)
+			}
+			document.getElementById("button").addEventListener("click", show);
 		</script>
 	</body>
 </html>
